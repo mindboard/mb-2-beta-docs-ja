@@ -1,0 +1,454 @@
+
+= 紹介
+
+image::screenshots/mind-mapping-example.png[MindBoard 2 (Beta)]
+
+== MindBoard 2 (Beta) について
+
+MindBoard 2 (Beta) は Android タブレット向けのスタイラスを使ってフリーハンドでマインドマップを描くのに便利なツールです。
+このエディションではテキスト入力とイメージのインポートに対応しました。
+
+
+=== コンセプト
+
+Less is more.
+
+考えながらアイデアを描きだしていく活動に集中できるように、ユーザインターフェスの存在をできるだけ少なくしています。
+また、いくつかの基本的なジェスチャーだけでアイデアをマップに描きだしたり操作できるようにしています。
+
+
+=== 必要な環境
+
+* Android 4.4 Kitkat 以上
+* デジタイザ対応のスタイラス（または S-Pen）を持った Android デバイス
+
+このアプリは Galaxy Note シリーズまたは Galaxy Tab A with S-Pen での使用を想定してデザインしています。
+
+[NOTE]
+テキストとイメージだけを使ってマップを描いていく場合は、デジタイザスタイラスのない Android デバイスでこのアプリを使うことができます。
+
+
+=== インストール
+
+Google Play で https://play.google.com/store/apps/details?id=com.mindboardapps.app.mb.sketch.beta[MindBoard 2 (Beata) App] を入手してください。
+
+
+=== 連絡先
+
+何か不明点等がございましたら、こちら http://www.mindboardapps.com/contact.html[連絡先情報] までご連絡ください。
+ご要望などのフィードバックをいただけると幸いです。
+
+
+= MindBoard の使い方
+
+== エディタ
+
+image::screenshots/editor-activity-map-edit-mode.png[Editor Activity]
+
+
+=== 基本の考え方
+
+* *スタイラス* : 自由にアイデアを描きだしていくときに使用
+* *指* : 描きだしたアイデアを操作するときに使用
+
+
+=== モード
+
+MindBoard 2 (Beta) は エディタ画面において *２つのモード* を持っています。
+ひとつは *マップ編集モード*、もうひとつは *ノード編集モード* です。
+
+*マップ編集モード* はアイデアをマインドマップとして編集していくときに使います。 *ノード編集モード* は、ブランチ上にアイデアを書き出していく時に使います。
+これら２つのモードを切り替えるには、指を使って地の部分を *ダブルタップ* します。
+
+[NOTE]
+*マップ編集モード* から *ノード編集モード* に切り替えるときは 指同様に、スタイラスでのダブルタップも有効です。
+
+
+=== マップ編集モード
+
+image::screenshots/editor-activity-map-edit-mode.png[title="編集画面 (マップ編集モード)"]
+
+アイデアをマインドマップとして描き出すためのモードです。
+
+
+==== 拡大縮小とスクロール
+
+*操作* :
+
+- *拡大縮小* : ２本指でのピンチイン / アウト
+- *スクロール* : 地の部分を指でドラッグ
+
+
+==== センターノードの追加
+
+*操作* :
+
+. 編集ツールバー上の image:icons/add-center-node.png[title="センターノード追加"] ボタン をタップ
+
+センターノードが画面中央に追加されます
+
+*イラスト* :
+
+image::items/edit-toolbar-of-map-editor.png[title="編集ツールバー (マップ編集モード)"]
+
+[NOTE]
+ひとつのドキュメントに複数のセンターノードを追加できます。
+
+
+==== センターノードのリサイズ
+
+*操作* :
+
+. 対象のセンターノードをタップして選択します
+. *リサイズハンドル* をドラッグします
+
+*イラスト* :
+
+image::items/a-handle-to-resize-a-center-node.png[title="リサイズハンドル"]
+
+
+==== 子ノードの生成（ブランチの生成）
+
+*操作* :
+
+. 対象となるノードをタップして選択します
+. *子ノード生成ハンドル* をドラッグします
+
+*イラスト* :
+
+image::items/handles-to-create-a-child-node-of-a-center-node.png[title="子ノード生成ハンドル （センターノード）"]
+
+image::items/a-handle-to-create-a-child-node-of-a-child-node.png[title="子ノード生成ハンドル （子ノード）"]
+
+
+==== ノード編集モードへの切り替え
+
+センターノードまたはブランチ上にアイデアを描き出すためにノード編集モードに切り替えます.
+
+*操作* :
+
+. 対象となる *ノードハンドル* をダブルタップします
+
+*イラスト* :
+
+image::items/a-node-handle-of-a-center-node.png[title="ノードハンドル (センターノード)"]
+
+image::items/a-node-handle-of-a-child-node.png[title="ノードハンドル (子ノード)"]
+
+
+==== マップ構造の変更
+
+*操作* :
+
+. 対象のノードをタップして選択します
+. *ブランチ変更ハンドル* をドラッグします
+. 別の親ノードにドロップします
+
+*イラスト* :
+
+image::items/a-branch-change-handle.png[title="ブランチ変更ハンドル"]
+
+
+==== ノード（またはブランチ）の削除
+
+*操作* :
+
+. 対象のノードをドラッグします
+. image:icons/mb_trashcan.png[title="ゴミ箱"] ゴミ箱 にドロップします
+
+*イラスト* :
+
+image::items/a-trashcan-on-the-editor.png[title="ゴミ箱"]
+
+
+==== アンドゥ / リドゥ
+
+*操作* :
+
+. 編集ツールバー上の image:icons/undo.png[title="アンドゥ"] / image:icons/redo.png[title="リドゥ"] ボタン をタップします
+
+*イラスト* :
+
+image::items/edit-toolbar-of-map-editor.png[title="編集ツールバー(マップ編集モード)"]
+
+
+=== ノード編集モード
+
+image::screenshots/editor-activity-node-edit-mode.png[title="編集画面 (ノード編集モード)"]
+
+ブランチ上にアイデアを描き出すためのモードです。
+
+次の３つの方法があります。
+
+- スタイラスでイラストを描き出す / 消す
+- キーボードからテキストを入力する
+- 画像をインポートする
+
+これら追加したアイテムは移動/リサイズ/削除することができます.
+
+[NOTE]
+現在のところ PNG形式の画像のみサポートしています。
+
+==== スタイラスでのイラスト追加 / 削除
+
+- *ペン* ツールを選択した状態で スタイラスを使ってイラストを描き出します
+- *消しゴム* ツールを選択した状態で スタイラスを使ってイラストを削除します
+
+*イラスト* :
+
+image::items/pen-and-eraser-tool.png[title="ペンと消しゴム"]
+
+[NOTE]
+指でイラストを囲んでそれを移動したりリサイズしたりできます。
+
+
+==== テキスト入力
+
+*操作* :
+
+. 編集ツールバー上の image:icons/add-text.png[title="テキスト追加"] ボタンをタップします
+. Inputting text on the dialog
+. Tapping the close ボタン 
+
+*イラスト* :
+
+image::items/edit-toolbar-of-node-edit.png[title="編集ツールバー (ノード編集モード)"]
+
+[NOTE]
+指でテキストを選択してそれを移動したりリサイズしたりできます。
+
+
+==== イメージのインポート
+
+*操作* :
+
+. 編集ツールバー上の image:icons/add-image.png[title="画像追加"] ボタンをタップします
+. ファイル選択ダイアログで画像を選択します
+
+*イラスト* :
+
+image::items/edit-toolbar-of-node-edit.png[title="編集ツールバー (ノード編集モード)"]
+
+[NOTE]
+指で画像を選択してそれを移動したりリサイズしたりできます。
+
+
+==== コピー・アンド・ペースト
+
+*操作* :
+
+. アイテム (指で囲んだイラストやテキスト) をタップして選択します
+. 編集ツールバー上の クリップボードボタンをタップします
+
+*イラスト* :
+
+image::items/edit-toolbar-of-node-edit.png[title="編集ツールバー (ノード編集モード)"]
+
+[WARNING]
+現在のところイメージのコピー・アンド・ペーストは対応していません。
+この問題は将来修正予定です。
+
+
+==== アンドゥ / リドゥ
+
+*操作* :
+
+. 編集ツールバー上の image:icons/undo.png[title="アンドゥ"] / image:icons/redo.png[title="リドゥ"] ボタン をタップします
+
+*イラスト* :
+
+image::items/edit-toolbar-of-node-edit.png[title="編集ツールバー (ノード編集モード)"]
+
+
+==== マップ編集モードに戻る
+
+*操作* : 
+
+. 地の部分を指でダブルタップするか、左上の閉じるボタンをタップします
+
+*イラスト* :
+
+image::screenshots/back-to-map-mode.png[title="閉じるボタン"]
+
+
+=== メニュー
+
+image::items/menu-on-actionbar.png[title="メニュー (アクションバー)"]
+
+
+==== 新規ドキュメント
+
+*操作* :
+
+. アクションバー上の image:icons/mb_new.png[title="新規ドキュメント"] ボタン をタップします
+
+[NOTE]
+アクションバー上の image:icons/mb_buffers.png[title="バッファ"] ボタンをタップすることで、以前に作成したドキュメントにアクセスできます。
+
+
+==== バッファ
+
+作成したドキュメントはバッファと呼ばれる場所に格納されます。
+バッファメニューを使うことで別のバッファに切り替えできます。
+
+*操作* :
+
+. アクションバー上の image:icons/mb_buffers.png[title="バッファ"] ボタンをタップします
+. ポップアップされたバッファリストからドキュメントをタップしてバッファを切り替えます
+
+*イラスト* :
+
+image::screenshots/buffer-list.png[title="バッファリスト"]
+
+[NOTE]
+アクティブドキュメントにはチャックマーク image:icons/active-page.png[title="アクティブページチェックマーク"] が入ります。
+
+
+==== バッファマネージャ
+
+バッファーマネージャ画面に切り替えます。
+
+*操作* :
+
+. アクションバー上の image:icons/mb_menu.png[title="メニュー"] ボタンをタップします
+. ポップアップメニューから image:icons/mb_buffers.png[title="バッファマネージャ"] Buffer Manager メニューアイテムをタップします
+
+*イラスト* :
+
+image::screenshots/editor-menu.png[title="メニュー"]
+
+
+== バッファマネージャ
+
+image::screenshots/buffer-manager-activity.png[title="バッファマネージャ画面"]
+
+*Features* :
+
+* ゴミ箱に移動
+* ゴミ箱を表示
+* エクスポート / インポート
+
+[NOTE]
+エクスポート / インポート はインターネット接続が必要です。
+インターネット接続がない状態では、この処理は機能しません。
+
+
+=== ゴミ箱に移動
+
+ドキュメントをゴミ箱に移動します。
+
+*操作* : 
+
+. ドキュメントをリストからタップして選択します
+. アクションバー上の image:icons/move-to-trash.png[title="ゴミ箱に移動"] ボタンをタップします
+
+
+=== ゴミ箱を表示
+
+ゴミ箱画面へ切り替えます。
+
+*操作* :
+
+. アクションバー上の image:icons/mb_menu.png[title="メニュー"] ボタンをタップします
+. ポップアップリストから image:icons/mb_trashcan.png[title="ゴミ箱"] Open Trash メニューアイテムをタップします
+
+*イラスト* :
+
+image::screenshots/buffer-manager-menu-open-trash.png[title="ゴミ箱を表示"]
+
+
+=== エクスポート
+
+Google Drive にドキュメントをエクスポートします。
+
+*操作* : 
+
+. ドキュメントをリストからタップして選択します
+. アクションバー上の image:icons/mb_menu.png[title="メニュー"] ボタンをタップします
+. ポップアップリストから image:icons/mb_cloud.png[title="クラウド"] Export メニューアイテムをタップします
+
+*イラスト* :
+
+image::screenshots/buffer-manager-menu-export-import.png[title="エクスポート / インポート"]
+
+[WARNING]
+エクスポート / インポート中は 画面を回転しないでください。
+もし回転んした場合、アプリは強制終了する場合があります。
+その場合は、処理を再度実行してください。
+この問題は将来修正予定です。
+
+
+=== Import
+
+Google Drive からドキュメントをインポートします。
+
+*操作* :
+
+. アクションバー上の image:icons/mb_menu.png[title="メニュー"] ボタンをタップします
+. ポップアップリストから image:icons/mb_cloud.png[title="クラウド"] Import メニューアイテムをタップします
+
+*イラスト* :
+
+image::screenshots/buffer-manager-menu-export-import.png[title="エクスポート / インポート"]
+
+[WARNING]
+エクスポート / インポート中は 画面を回転しないでください。
+もし回転んした場合、アプリは強制終了する場合があります。
+その場合は、処理を再度実行してください。
+この問題は将来修正予定です。
+
+
+== ゴミ箱
+
+image::screenshots/trash-activity.png[title="ゴミ箱"]
+
+ゴミ箱に移動したドキュメントを管理します。
+
+*Features* :
+
+- 元に戻す
+- ゴミ箱を空にする
+
+
+=== 元に戻す
+
+*操作* :
+
+. ドキュメントをリストからタップして選択します
+. アクションバー上の image:icons/put-back.png[title="元に戻す"] ボタンをタップします
+
+
+=== ゴミ箱を空にする
+
+*操作* :
+
+. アクションバー上の image:icons/empty-trash.png[title="ゴミ箱を空にする"] ボタンをタップします
+. 確認ダイアログで *はい* ボタンをタップします
+
+*イラスト* :
+
+image::screenshots/dialog-empty-trash.png[title="ゴミ箱を空にするかどうかの確認"]
+
+[WARNING]
+この処理は取り消しできません。ゴミ箱内のすべてのドキュメントを完全に削除します。
+
+
+== 設定
+
+image::screenshots/settings-main.png[title="設定"]
+
+*Features* :
+
+* ペン
+** キャリブレーション
+* その他
+** グラフ線の濃度
+** 戻るキー
+** ステータスバー
+
+
+=== キャリブレーション設定
+
+image::screenshots/settings-calibration.png[title="キャリブレーション設定"]
+
+３つのスタイラスプリセットを保存できます。

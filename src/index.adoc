@@ -1,0 +1,19 @@
+= MindBoard 2 (Beta) ユーザガイド
+Tomoaki Oshima <http://www.mindboardapps.com/>
+:doctype: book
+:source-highlighter: coderay
+:toc: left
+:sectnums:
+:sectanchors:
+:icons: font
+:imagesdir: images
+
+このドキュメントは MindBoard 2 (Beta) image:icons/mb-2-beta-app-icon-24.png[MindBoard 2 (Beta)] Version 0.7.5 について説明しています。
+
+
+[NOTE]
+link:mindboard-2-beta-user-guide.pdf[User Guide (PDF format)]
+
+include::user-guide.adoc[]
+
+

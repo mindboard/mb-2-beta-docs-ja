@@ -1,0 +1,455 @@
+
+= Introduction
+
+image::screenshots/mind-mapping-example.png[MindBoard 2 (Beta)]
+
+== About MindBoard 2 (Beta)
+
+MindBoard 2 (Beta) is a freehand mind-mapping application with stylus for Android tablets.
+In addition, this edition has text input and image import feature.
+
+
+=== Basic Concept
+
+Less is more.
+
+In order to concentrate your thinking activity, this application has less user interface. 
+And you can quickly build your map by using a few basic operations.
+
+
+=== Requirement
+
+* Android 4.4 Kitkat or newer.
+* Digitizer STYLUS like S-Pen
+
+This app is designed for Galaxy Note series and Galaxy Tab A with S-Pen.
+
+[NOTE]
+If build your map with text and image only, you can use this application without stylus.
+
+
+=== Installation
+
+Get the https://play.google.com/store/apps/details?id=com.mindboardapps.app.mb.sketch.beta[MindBoard 2 (Beata) App] on Google Play.
+
+
+=== Getting help
+
+If you have any questions, please http://www.mindboardapps.com/contact.html[contact].
+And also your feedback will be much appreciated.
+
+
+= Using MindBoard
+
+== Editor
+
+image::screenshots/editor-activity-map-edit-mode.png[Editor Activity]
+
+
+=== Basic Policy
+
+* *By Stylus* : Drawing your ideas freely
+* *By Finger* : Editing and operating your ideas.
+
+
+=== Mode
+
+MindBoard 2 (Beta) has *two mode* in the editor activity.
+One is *Map Edit Mode*, the other is *Node Edit Mode*.  
+
+Use *Map Edit Mode* when building your thoughts as mind-mapping, and use *Node Edit Mode* when output your ideas on a branch.
+In order to switch these modes by *double tap gesture with finger*.
+
+[NOTE]
+In order to switch from *Map Edit Mode* to *Node Edit Mode*, you can also use doubletap gesture with *stylus*.
+
+
+=== Map Edit Mode
+
+image::screenshots/editor-activity-map-edit-mode.png[title="Editor Activity (Map Edit Mode)"]
+
+This mode is for building your thoughts as mind-mapping.
+
+
+==== Zoom and Scroll
+
+*Operation* :
+
+- *Zoom* : Pinch in / out with two fingers
+- *Scroll* : Draging background with one finger
+
+
+==== Adding a Center Node
+
+*Operation* :
+
+. Tapping the image:icons/add-center-node.png[title="Add Center Node"] button on the edit toolbar.
+
+A center node is added on the center of the screen.
+
+*Illustration* :
+
+image::items/edit-toolbar-of-map-editor.png[title="Edit Toolbar (Map Edit Mode)"]
+
+[NOTE]
+You can add multiple center nodes in a document.
+
+
+==== Resizing a Center Node
+
+*Operation* :
+
+. Tapping a target center node to select
+. Dragging *a resize handle*
+
+*Illustration* :
+
+image::items/a-handle-to-resize-a-center-node.png[title="A Resize Handle (A Center Node)"]
+
+
+==== Creating a Child Node ( a Branch )
+
+*Operation* :
+
+. Tapping a target node to select
+. Dragging *a handle to create a child node*
+
+*Illustration* :
+
+image::items/handles-to-create-a-child-node-of-a-center-node.png[title="Two Handles to create a child node (A Center Node)"]
+
+image::items/a-handle-to-create-a-child-node-of-a-child-node.png[title="A Handle to create a child node (A Child Node)"]
+
+
+==== Entering into Node Edit Mode
+
+Enter into Node Edit Mode to output your ideas on a center node or a branch.
+
+*Operation* : 
+
+. Double tapping a target *node handle*
+
+*Illustration* :
+
+image::items/a-node-handle-of-a-center-node.png[title="A Node Handle (A Center Node)"]
+
+image::items/a-node-handle-of-a-child-node.png[title="A Node Handle (A Child Node)"]
+
+
+==== Reorganizing Map ( Changing Node Structure )
+
+*Operation* :
+
+. Tapping a target node to select
+. Dragging *a branch change handle*
+. Dropping another parent node handle
+
+*Illustration* :
+
+image::items/a-branch-change-handle.png[title="A Branch Change Handle"]
+
+
+==== Deleting a Node ( a Branch )
+
+*Operation* :
+
+. Dragging a target node
+. Dropping it into the image:icons/mb_trashcan.png[title="Trashcan"] icon
+
+*Illustration* :
+
+image::items/a-trashcan-on-the-editor.png[title="Trashcan"]
+
+
+==== Undo / Redo
+
+*Operation* :
+
+. Tapping the image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar of the Map Edit Mode
+
+*Illustration* :
+
+image::items/edit-toolbar-of-map-editor.png[title="Edit Toolbar (Map Edit Mode)"]
+
+
+=== Node Edit Mode
+
+image::screenshots/editor-activity-node-edit-mode.png[title="Editor Activity (Node Edit Mode)"]
+
+This mode is for outputing your ideas on a branch.
+
+There are 3 ways to output your ideas.
+
+- Adding or deleting drawings by stylus
+- Inputing text by keyboard
+- Importing images
+
+You can move ,resize, delete these items.
+
+[NOTE]
+Currently PNG image format is supported.
+
+
+==== Add or delete drawings by stylus 
+
+- Drawing your ideas by stylus under selecting the *pen tool*.
+- Deleting drawings by stylus under selecting the *eraser tool*.
+
+*Illustration* :
+
+image::items/pen-and-eraser-tool.png[title="Pen and Eraser"]
+
+[NOTE]
+You can move and resize drawings that is enclosed by finger
+
+
+==== Input text 
+
+*Operation* :
+
+. Tapping the image:icons/add-text.png[title="Add Text"] button on the edit toolbar
+. Inputting text on the dialog
+. Tapping the close button 
+
+*Illustration* :
+
+image::items/edit-toolbar-of-node-edit.png[title="Edit Toolbar (Node Edit Mode)"]
+
+[NOTE]
+You can move and resize added text that is selected by finger.
+
+
+==== Import Image
+
+*Operation* :
+
+. Tapping the image:icons/add-image.png[title="Import Image"] button on the edit toolbar
+. Choosing an image on the file chooser dialog
+
+*Illustration* :
+
+image::items/edit-toolbar-of-node-edit.png[title="Edit Toolbar (Node Edit Mode)"]
+
+[NOTE]
+You can move and resize an imported image that is selected by finger.
+
+
+==== Copy and Paste
+
+*Operation* :
+
+. Tapping a item ( enclosing drawings or text ) to select
+. Tapping the *clipboard* button on the edit toolbar
+
+*Illustration* :
+
+image::items/edit-toolbar-of-node-edit.png[title="Edit Toolbar (Node Edit Mode)"]
+
+[WARNING]
+Currently image copy and paste feature is not supported.
+This issue will be fixed in the future.
+
+
+==== Undo / Redo
+
+*Operation* :
+
+. Tapping the image:icons/undo.png[title="Undo"] / image:icons/redo.png[title="Redo"] button on the edit toolbar
+
+*Illustration* :
+
+image::items/edit-toolbar-of-node-edit.png[title="Edit Toolbar (Node Edit Mode)"]
+
+
+==== Back to Map Edit Mode
+
+*Operation* :
+
+. Double tapping on background with finger Or tapping the close button on top-left-corner 
+
+*Illustration* :
+
+image::screenshots/back-to-map-mode.png[title="Close Button"]
+
+
+=== Menu
+
+image::items/menu-on-actionbar.png[title="Menu (Action Bar)"]
+
+
+==== New Document
+
+*Operation* :
+
+. Tapping the image:icons/mb_new.png[title="New Document"] button on the action bar.
+
+[NOTE]
+By tapping the image:icons/mb_buffers.png[title="Buffers"] button on the action bar, you can open a previous document.
+
+
+==== Buffers
+
+The document you are creating resides in an object called a buffer.
+You can change another buffer using buffers menu.
+
+*Operation* :
+
+. Tapping the image:icons/mb_buffers.png[title="Buffers"] button on the action bar
+. Tapping a document to change from buffer popup list menu.
+
+*Illustration* :
+
+image::screenshots/buffer-list.png[title="Buffer List"]
+
+[NOTE]
+The active document has check mark like image:icons/active-page.png[title="Active Page Check Mark"].
+
+
+==== Buffer Manager
+
+Enter into Buffer Manager Activity.
+
+*Operation* :
+
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
+. Tapping the image:icons/mb_buffers.png[title="Buffer Manager"] Buffer Manager menu item from the popup menu.
+
+*Illustration* :
+
+image::screenshots/editor-menu.png[title="Menu"]
+
+
+== Buffer Manager
+
+image::screenshots/buffer-manager-activity.png[title="Buffer Manager Activity"]
+
+*Features* :
+
+* Move to Trash
+* Open Trash
+* Export / Import
+
+[NOTE]
+Export / Import process needs the internet connectivity and Google Account.
+Under losing the internet conectivity, this process does not work.
+
+
+=== Move to Trash
+
+Move a document to the trash.
+
+*Operation* : 
+
+. Tapping a document from the list to select
+. Tapping the image:icons/move-to-trash.png[title="Move to Trash"] button on the action bar
+
+
+=== Open Trash
+
+Enter into the trash activity.
+
+*Operation* :
+
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
+. Tapping the image:icons/mb_trashcan.png[title="Trash"] menu item on the popup menu
+
+*Illustration* :
+
+image::screenshots/buffer-manager-menu-open-trash.png[title="Open Trash"]
+
+
+=== Export
+
+Export a document to Google Drive.
+
+*Operation* :
+
+. Tapping a document from the list to select
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
+. Tapping the image:icons/mb_cloud.png[title="Cloud"] Export menu item from the popup menu.
+
+*Illustration* :
+
+image::screenshots/buffer-manager-menu-export-import.png[title="Export / Import"]
+
+[WARNING]
+Do not rotate the device under exporting / importing a document.
+If rotate, this application will be crushed.
+In this case, you should do again.
+This issue will be fixed in the future.
+
+
+=== Import
+
+Import a document from Google Drive.
+
+*Operation* : 
+
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
+. Tapping the image:icons/mb_cloud.png[title="Cloud"] Import menu item from the popup menu.
+
+*Illustration* :
+
+image::screenshots/buffer-manager-menu-export-import.png[title="Export / Import"]
+
+[WARNING]
+Do not rotate the device under exporting / importing a document.
+If rotate, this application will be crushed.
+In this case, you should do again.
+This issue will be fixed in the future.
+
+
+== Trash
+
+image::screenshots/trash-activity.png[title="Trash Activity"]
+
+You can manage trashed documents in this activity.
+
+*Features* :
+
+- Put Back
+- Empty Trash
+
+
+=== Put Back
+
+*Operation* :
+
+. Tapping a document from the list to select
+. Tapping the image:icons/put-back.png[title="Put Back"] button on the action bar
+
+
+=== Empty Trash
+
+*Operation* :
+
+. Tapping the image:icons/empty-trash.png[title="Empty Trash"] button on the action bar
+. Tapping Yes button on the confirm dialog
+
+*Illustration* :
+
+image::screenshots/dialog-empty-trash.png[title="Confirm Empty Trash"]
+
+[WARNING]
+This action cause deleteing all documents in the trash forever.
+
+
+== Settings
+
+image::screenshots/settings-main.png[title="Settings"]
+
+*Features* :
+
+* Pen
+** Calibration
+* Misc. 
+** Graph Line Opacity  
+** Back Key
+** Status Bar
+
+
+=== Calibration Settings
+
+image::screenshots/settings-calibration.png[title="Calibration Settings"]
+
+It is possible to keep 3 calibration presets of stylus.
