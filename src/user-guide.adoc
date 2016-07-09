@@ -30,7 +30,7 @@ Less is more.
 
 === インストール
 
-Google Play で https://play.google.com/store/apps/details?id=com.mindboardapps.app.mb.sketch.beta[MindBoard 2 (Beata) App] を入手してください。
+Google Play で https://play.google.com/store/apps/details?id=com.mindboardapps.app.mb.sketch.beta[MindBoard 2 (Beta) App] を入手してください。
 
 
 === 連絡先
