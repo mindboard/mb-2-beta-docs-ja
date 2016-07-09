@@ -207,15 +207,15 @@ image::items/pen-and-eraser-tool.png[title="ペンと消しゴム"]
 *操作* :
 
 . 編集ツールバー上の image:icons/add-text.png[title="テキスト追加"] ボタンをタップします
-. Inputting text on the dialog
-. Tapping the close ボタン 
+. ダイアログ上でテキストを入力します
+. 閉じるボタンをタップします
 
 *イラスト* :
 
 image::items/edit-toolbar-of-node-edit.png[title="編集ツールバー (ノード編集モード)"]
 
 [NOTE]
-指でテキストを選択してそれを移動したりリサイズしたりできます。
+追加したテキストアイテムは、指でそれを選択して移動 / リサイズができます。
 
 
 ==== イメージのインポート
@@ -230,7 +230,7 @@ image::items/edit-toolbar-of-node-edit.png[title="編集ツールバー (ノー�
 image::items/edit-toolbar-of-node-edit.png[title="編集ツールバー (ノード編集モード)"]
 
 [NOTE]
-指で画像を選択してそれを移動したりリサイズしたりできます。
+追加した画像アイテムは、指でそれを選択して移動 / リサイズができます。
 
 
 ==== コピー・アンド・ペースト
@@ -245,7 +245,7 @@ image::items/edit-toolbar-of-node-edit.png[title="編集ツールバー (ノー�
 image::items/edit-toolbar-of-node-edit.png[title="編集ツールバー (ノード編集モード)"]
 
 [WARNING]
-現在のところイメージのコピー・アンド・ペーストは対応していません。
+現在のところ画像のコピー・アンド・ペーストは対応していません。
 この問題は将来修正予定です。
 
 
