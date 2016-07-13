@@ -30,7 +30,7 @@ If build your map with text and image only, you can use this application without
 
 === Installation
 
-Get the https://play.google.com/store/apps/details?id=com.mindboardapps.app.mb.sketch.beta[MindBoard 2 (Beata) App] on Google Play.
+Get the https://play.google.com/store/apps/details?id=com.mindboardapps.app.mb.sketch.beta[MindBoard 2 (Beta) App] on Google Play.
 
 
 === Getting help
