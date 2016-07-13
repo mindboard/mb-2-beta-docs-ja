@@ -1,5 +1,5 @@
 
-= 紹介
+= イントロダクション
 
 image::screenshots/mind-mapping-example.png[MindBoard 2 (Beta)]
 
@@ -15,6 +15,16 @@ Less is more.
 
 考えながらアイデアを描きだしていく活動に集中できるように、ユーザインターフェスの存在をできるだけ少なくしています。
 また、いくつかの基本的なジェスチャーだけですばやくアイデアをマップに描きだしたり編集できるようにしています。
+
+
+=== 主な特長
+
+* スタイラスを使った思考のアウトプット
+* イメージのインポート
+* テキストのインプット
+* ひとつのドキュメントに複数のセンターノード（マインドマップ）の作成
+* PDF エクスポート
+* Google Drive へのドキュメントのエクスポートとインポート
 
 
 === 必要な環境
@@ -148,6 +158,8 @@ image::items/a-node-handle-of-a-child-node.png[title="ノードハンドル (子
 
 image::items/a-branch-change-handle.png[title="ブランチ変更ハンドル"]
 
+[NOTE]
+If the distance between node and parent node is too near, it does not appear a branch change handle. 
 
 ==== ノード（またはブランチ）の削除
 
@@ -304,9 +316,25 @@ image::screenshots/buffer-list.png[title="バッファリスト"]
 アクティブドキュメントにはチャックマーク image:icons/active-page.png[title="アクティブページチェックマーク"] が入ります。
 
 
-==== バッファマネージャ
+==== メニュー > PDFとして保存
 
-バッファーマネージャ画面に切り替えます。
+アクティブなドキュメントをPDFとして保存するメニューアイテムです。
+
+*操作* :
+
+. アクションバー上の image:icons/mb_menu.png[title="メニュー"] ボタンをタップします
+. ポップアップメニューから image:icons/mb_export.png[title="PDFとして保存"] PDFとして保存 メニューアイテムをタップします
+
+*イラスト* :
+
+image::screenshots/editor-menu.png[title="Menu"]
+
+[NOTE]
+PDFの出力品質を確認するためには、ここから  https://mindboard.github.io/mb-2-beta-docs-ja/images/pdf/my-loghouse-plan.pdf[サンプルPDF] をダウンロードします。
+
+==== メニュー > バッファマネージャ
+
+バッファーマネージャ画面に切り替えるためのメニューアイテムです。
 
 *操作* :
 
@@ -316,6 +344,20 @@ image::screenshots/buffer-list.png[title="バッファリスト"]
 *イラスト* :
 
 image::screenshots/editor-menu.png[title="メニュー"]
+
+
+==== メニュー > 設定
+
+設定を変更するためのメニューアイテムです。
+
+*操作* :
+
+. アクションバー上の image:icons/mb_menu.png[title="メニュー"] ボタンをタップします
+. ポップアップメニューから image:icons/mb_settings.png[title="設定"] 設定 メニューアイテムをタップします
+
+*イラスト* :
+
+image::screenshots/editor-menu.png[title="Menu"]
 
 
 == バッファマネージャ

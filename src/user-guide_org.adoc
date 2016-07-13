@@ -17,6 +17,16 @@ In order to concentrate your thinking activity, this application has less user i
 And you can quickly build your map by using a few basic operations.
 
 
+=== Key Features
+
+* Drawing your thoughts with Stylus
+* Image import
+* Text Input
+* Multiple center nodes (mind maps) in one document 
+* PDF export
+* Import and export documents with Google Drive
+
+
 === Requirement
 
 * Android 4.4 Kitkat or newer.
@@ -48,8 +58,8 @@ image::screenshots/editor-activity-map-edit-mode.png[Editor Activity]
 
 === Basic Policy
 
-* *By Stylus* : Drawing your ideas freely
-* *By Finger* : Editing and operating your ideas.
+* *By Stylus* : Outputting your ideas freely
+* *By Finger* : Editing and operating outputted your ideas.
 
 
 === Mode
@@ -148,6 +158,8 @@ image::items/a-node-handle-of-a-child-node.png[title="A Node Handle (A Child Nod
 
 image::items/a-branch-change-handle.png[title="A Branch Change Handle"]
 
+[NOTE]
+If the distance between node and parent node is too near, it does not appear a branch change handle. 
 
 ==== Deleting a Node ( a Branch )
 
@@ -305,14 +317,45 @@ image::screenshots/buffer-list.png[title="Buffer List"]
 The active document has check mark like image:icons/active-page.png[title="Active Page Check Mark"].
 
 
-==== Buffer Manager
+==== Menu > Save as PDF
 
-Enter into Buffer Manager Activity.
+The menu item to save an active document as PDF.
+
+*Operation* :
+
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
+. Tapping the image:icons/mb_export.png[title="Save as PDF"] Save as PDF menu item from the popup menu.
+
+*Illustration* :
+
+image::screenshots/editor-menu.png[title="Menu"]
+
+[NOTE]
+For checking the PDF quality, download https://mindboard.github.io/mb-2-beta-docs/images/pdf/my-loghouse-plan.pdf[an example mind map pdf]. 
+
+
+==== Menu > Buffer Manager
+
+The menu item to enter into Buffer Manager Activity.
 
 *Operation* :
 
 . Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
 . Tapping the image:icons/mb_buffers.png[title="Buffer Manager"] Buffer Manager menu item from the popup menu.
+
+*Illustration* :
+
+image::screenshots/editor-menu.png[title="Menu"]
+
+
+==== Menu > Settings
+
+The menu item to change the settings.
+
+*Operation* :
+
+. Tapping the image:icons/mb_menu.png[title="Menu"] button on the action bar
+. Tapping the image:icons/mb_settings.png[title="Settings"] Settings menu item from the popup menu.
 
 *Illustration* :
 
