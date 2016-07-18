@@ -25,6 +25,7 @@ And you can quickly build your map by using a few basic operations.
 * Multiple center nodes (mind maps) in one document 
 * PDF export
 * Import and export documents with Google Drive
+* Import support for MindBoard Pro Documents on Google Drive (version *0.7.8* and newer)
 
 
 === Requirement
@@ -58,8 +59,8 @@ image::screenshots/editor-activity-map-edit-mode.png[Editor Activity]
 
 === Basic Policy
 
-* *By Stylus* : Outputting your thought freely
-* *By Finger* : Editing and operating outputted your thought.
+* *By Stylus* : Output your thought freely
+* *By Finger* : Edit and operate outputted your thought.
 
 
 === Mode
@@ -166,7 +167,8 @@ image::items/a-node-handle-of-a-child-node.png[title="A Node Handle (A Child Nod
 image::items/a-branch-change-handle.png[title="A Branch Change Handle"]
 
 [NOTE]
-If the distance between node and parent node is too near, it does not appear a branch change handle. 
+If the distance between node and parent node is too near, the branch change handle does not appear. 
+
 
 ==== Deleting a Node ( a Branch )
 

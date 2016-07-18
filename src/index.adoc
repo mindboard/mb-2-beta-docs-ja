@@ -8,12 +8,9 @@ Tomoaki Oshima <http://www.mindboardapps.com/>
 :icons: font
 :imagesdir: images
 
-このドキュメントは MindBoard 2 (Beta) Version 0.7.7 について説明しています。
-
+このドキュメントは MindBoard 2 (Beta) Version 0.7.8 について説明しています。
 
 [NOTE]
 link:mindboard-2-beta-user-guide.pdf[User Guide (PDF format)]
 
 include::user-guide.adoc[]
-
-

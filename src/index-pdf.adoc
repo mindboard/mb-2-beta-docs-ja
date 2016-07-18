@@ -9,8 +9,6 @@ Tomoaki Oshima <http://www.mindboardapps.com/>
 :imagesdir: ../images
 
 
-このドキュメントは MindBoard 2 (Beta) Version 0.7.7 について説明しています。
+このドキュメントは MindBoard 2 (Beta) Version 0.7.8 について説明しています。
 
 include::user-guide.adoc[]
-
-
